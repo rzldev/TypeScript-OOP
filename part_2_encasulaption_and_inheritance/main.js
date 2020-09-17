@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var hennessey_1 = require("./classes/hennessey");
+var bugatti_1 = require("./classes/bugatti");
+var koenigsegg_1 = require("./classes/koenigsegg");
+var mcLaren_1 = require("./classes/mcLaren");
+var venom = new hennessey_1.Hennessey(270, 1200000, 'Venom GT');
+var agera = new koenigsegg_1.Koenigsegg(273, 2500000, 'Agera RS');
+var chiron = new bugatti_1.Bugatti(304, 3800000, 'Chiron Super Sport 300+');
+var speedtail = new mcLaren_1.McLaren(250, 2200000, 'Speedtail');
+venom.move();
+agera.move();
+chiron.move();
+speedtail.move();

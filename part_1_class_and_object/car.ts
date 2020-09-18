@@ -11,9 +11,8 @@ class Car {
         return this.speed;
     }
 
-    getPrice(): number {
-        console.log(`${ this.brand } berjalan`);
-        return this.price;
+    getPrice(): string {
+        return `$${ this.price }`;
     }
     
     move(): void {

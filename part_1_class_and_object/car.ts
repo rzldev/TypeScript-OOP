@@ -3,7 +3,7 @@ class Car {
     speed: number;
     price: number;
 
-    getName(): string {
+    getBrand(): string {
         return this.brand;
     };
 
@@ -14,6 +14,10 @@ class Car {
     getPrice(): string {
         return `$${ this.price }`;
     }
+
+    getName(): string {
+        return this.brand;
+    };
     
     move(): void {
         console.log(`${ this.brand } berjalan dengan kencang`);

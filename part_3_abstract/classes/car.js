@@ -7,8 +7,12 @@ var Car = /** @class */ (function () {
         this.speed = speed;
         this.price = price;
     }
-    Car.prototype.setName = function (brand) {
+    Car.prototype.setBrand = function (brand) {
         this.brand = brand;
+    };
+    ;
+    Car.prototype.getBrand = function (brand) {
+        return this.brand;
     };
     ;
     Car.prototype.setSpeed = function (speed) {

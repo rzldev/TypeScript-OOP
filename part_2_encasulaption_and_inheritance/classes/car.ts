@@ -9,11 +9,11 @@ export class Car {
         this.price = price;
     }
 
-    setName(brand: string): void {
+    setBrand(brand: string): void {
         this.brand = brand;
     };
 
-    getName(): string {
+    getBrand(brand: string): string {
         return this.brand;
     };
 
@@ -32,6 +32,10 @@ export class Car {
     getPrice(): string {
         return `$${ this.price }`;
     }
+    
+    getName(): string {
+        return this.brand;
+    };
     
     move(): void {
         console.log(`${ this.brand } berjalan dengan kencang`);
